@@ -1,0 +1,11 @@
+1. Non static member initialisation : from modern cpp onwards from cpp11.
+2. LSP is base pointing to derived, the other way around does not work
+3. If a constructor is marked explicit then it only supports construction and not conversion/assignment
+4. Uniform initialisation or Brace initialisation
+5. Explicit multi param constructor from modern cpp
+6. Conversion Constructor  |---------------------------------|
+7. assignment operator     | Refer file1 & file2 for example |
+8. explicit                |---------------------------------|
+9. explicit conversion operator introduced in modern cpp
+10. friend class |------Refer file 5---------------|
+11. nested class |---------------------------------|

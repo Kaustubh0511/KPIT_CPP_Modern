@@ -1,0 +1,9 @@
+1. new[] operator
+2. delete[] operator
+3. naming convention.
+4. calling convention -> __thiscall, __stdcall, __fastcall, __cdecl. [Self Study]
+5. type inference.
+6. type deduce
+7. auto
+8. decltype
+9. Template Bloating.

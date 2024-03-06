@@ -1,0 +1,6 @@
+Cyclic Barrier :- Each thread should know weather all threads have arrived
+4 ATM  1 queue - semaphore
+1 ATM 1 queue same organization = monitor
+1 ATM 1 queue different organization = mutex
+4 ATM 4 queue = Event log
+Grocery Shop = CountDown Latch
