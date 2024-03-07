@@ -1,5 +1,5 @@
-#include"dummy.h"
-#include "computer.h"
+#include"dummy.hpp"
+#include "computer.hpp"
 #include "iostream"
 int main()
 {

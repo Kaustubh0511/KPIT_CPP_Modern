@@ -2,16 +2,21 @@
 
 void functionality()
 {
-    IFactory * factory = FactoryDecider::getFactoy(10);
-    IAudio* audio = factory->getAudio();
+    IFactory *factory = FactoryDecider::getFactoy(10);
+    IAudio *audio = factory->getAudio();
     audio->createAudio();
     audio->attachAudio();
 
-    IVideo* video = factory->getVideo();
+    IVideo *video = factory->getVideo();
     video->createVideo();
     video->attachVideo();
 
-    IMag* mag = factory->getMag();
+    IMag *mag = factory->getMag();
     mag->createMag();
     mag->attachMag();
+
+    delete factory;
+    delete audio;
+    delete video;
+    delete mag;
 }

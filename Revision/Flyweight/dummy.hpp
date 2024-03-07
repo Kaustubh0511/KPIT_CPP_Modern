@@ -1,7 +1,7 @@
-#ifndef DUMMY_H
-#define DUMMY_H
+#ifndef DUMMY_HPP
+#define DUMMY_HPP
 
-#include "MSP.h"
+#include "MSP.hpp"
 
 class dummy
 {
@@ -10,4 +10,4 @@ public:
     ~dummy() { MSP::release(); }
 } dummy;
 
-#endif // DUMMY_H
+#endif // DUMMY_HPP

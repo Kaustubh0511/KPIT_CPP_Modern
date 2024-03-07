@@ -1,10 +1,9 @@
-#ifndef MSP_H
-#define MSP_H
+#ifndef MSP_HPP
+#define MSP_HPP
 
 #include <string>
 #include <map>
 using std::string;
-
 
 struct MSP
 {
@@ -19,13 +18,12 @@ struct MSP
         string series,
         string processor);
 
-    static MSP *make_msp(string make, 
-                         string series, 
-                         string processor) ;
+    static MSP *make_msp(string make,
+                         string series,
+                         string processor);
 
     static void release();
 };
-int MSP::count=0;
-std::map<string,MSP*> MSP::repo;
 
-#endif // MSP_H
+
+#endif // MSP_HPP
