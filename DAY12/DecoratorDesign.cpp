@@ -9,8 +9,7 @@ using namespace std;
 // Flyweight
 // hyderate , dehydrate
 // Singleton with smrt ptr
-/* Req -> Ek msg jo bhejana hai usko encode karna, encrpyt , sign bhejna hai.
- */
+/* Req -> Ek msg jo bhejana hai usko encode karna, encrpyt , sign bhejna hai.*/
 
 class IMsgSend
 {
