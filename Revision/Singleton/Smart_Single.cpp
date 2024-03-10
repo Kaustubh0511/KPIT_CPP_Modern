@@ -50,6 +50,11 @@ Single &Smart_Single::operator*()
 {
     return *s;
 }
+Smart_Single &Smart_Single::operator->*(FPTR fp)
+{
+    this->fp = fp;
+    return *this;
+}
 int Smart_Single::use_count()
 {
     return count;
