@@ -3,10 +3,10 @@
 void BaseMomento::SetCareTaker(CareTaker *_caretaker) { this->_caretaker = _caretaker; }
 
 void BaseMomento::Hyderate(){
-    IMomento* state =clone();
+    std::any state =clone();
     _caretaker->FeedIn(this,state);
 }
 void BaseMomento::Dehyderate(){
-    IMomento* RecivedState=_caretaker->FetchOut(this);
+    std::any RecivedState=_caretaker->FetchOut(this);
     ReciveState(RecivedState);
 }

@@ -24,13 +24,3 @@ int main()
     cout << l1;
     return 0;
 }
-
-// //Singleton class along with *->
-// //Abstract Factory
-// Template Bloating
-// //IMomento
-// //Composite
-// //Threading
-// Chat App
-// //Chain of Responsibility
-//  CRTP

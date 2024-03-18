@@ -4,7 +4,7 @@
 #include "IMomento.h"
 #include "CareTaker.h"
 
-class BaseMomento:public IMomento
+class BaseMomento
 {
 private:
     CareTaker* _caretaker{nullptr};
@@ -18,12 +18,12 @@ public:
     ~BaseMomento() = default;
 
      void SetCareTaker(CareTaker* );
-     void Hyderate()override;
-     void Dehyderate()override;
+     void Hyderate();
+     void Dehyderate();
 
 protected:
-    virtual IMomento* clone()=0;
-    virtual void ReciveState(IMomento*)=0;
+    virtual std::any clone()=0;
+    virtual void ReciveState(std::any)=0;
 };                                                                                                                  
 
 #endif // BASEMOMENTO_H
