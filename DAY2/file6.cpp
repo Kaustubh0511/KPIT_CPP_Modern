@@ -9,7 +9,6 @@ using namespace std;
 4. KISS -> Keep it simple and stupid
 5. DRY/DIE/WET/OAOO -> dont repeat yourself/duplication is evil/We enjoying typing/Once and only once
 6. LSP -> Liskov's Substition Principle
-
 */
 
 // interface
